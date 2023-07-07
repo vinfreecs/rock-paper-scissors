@@ -1,12 +1,51 @@
+
 .container{
     display: flex;
+    background-color: rgba(21, 21, 21, 0.984);
+    background-size: cover;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    gap: 8px;
 }
-.block{
+.card{
     display: flex;
-    justify-content: center;
+    gap: 64px;
+}
+.score-player,
+.score-computer{
+    margin: 2px;
+    padding: 32px 42px;
+    font-size: 48px;
+    color: rgb(211, 233, 227);
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     gap: 16px;
+}
+button{
+    border: 0;
+    background-color: rgba(220, 110, 51, 0.575);
+    border-radius: 16px;
+    outline: none   ;
+}
+
+img{
+    height: 64px;
+    width: 64px;
+    outline: none;
+}
+.infodiv{
+    display: flex;
+    justify-content: center;
+    color: rgb(207, 227, 244);
+    font-size: 32px;
+    margin: 2px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Roboto Mono', sans-serif;
 }

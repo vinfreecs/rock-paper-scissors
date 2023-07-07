@@ -46,7 +46,6 @@ function game() {
       }
       document.querySelector(".score-player").innerHTML = userScore;
       document.querySelector(".score-computer").innerHTML = computerScore;
-      console.log(button.className, computerChoice, userScore, computerScore);
       check();
     });
   });
